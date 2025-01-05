@@ -73,3 +73,51 @@ a.hov:hover {
   transform: scale(1.05);
   transition: transform 0.8s ease-in-out, color 0.5s ease-in-out;
 }
+.gallery-container{
+  background-color: white;
+}
+#port{
+  color: #026971;
+  font-weight: 600;
+}
+.form-container{
+  background-color: #026971;
+}
+.inner-form {
+  background-color: #585F73;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.inner-form::placeholder {
+  color: black; 
+}
+
+.inner-form:focus {
+  background-color: white;
+}
+.bg-r{
+  background-color: #FB857F;
+}
+.bg-r:hover{
+  color: black!important;
+  background-color: #FB857F;
+}
+.footer{
+  background-color: #00c8e5;
+}
+.cir{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  font-size: 30px;
+  color: #00c8e5;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+.cir:hover{
+  transform: scale(1.1);
+  background-color: #74927f;
+}
