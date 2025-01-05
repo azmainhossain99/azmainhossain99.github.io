@@ -121,3 +121,17 @@ a.hov:hover {
   transform: scale(1.1);
   background-color: #74927f;
 }
+.card {
+  height: 300px; /* Set a fixed height for the entire card */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensures content inside is spaced evenly */
+}
+
+.card-body {
+  height: 100%; /* Makes the card body fill the fixed height of the card */
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  justify-content: center; /* Horizontally center the content */
+  overflow: hidden; /* Prevent content from overflowing */
+}
